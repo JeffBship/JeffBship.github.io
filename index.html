@@ -1,59 +1,23 @@
-<HTML>
-<HEAD>
-<TITLE>JeffBship</TITLE>
-</HEAD>
-  
-<BODY>
-    <CENTER>  
-    <font color="blue" />
-    <h1>Jeff's Personal Start Page</h1>
-    <font color="black"/>
-    <hr>
-  
-      
-    <a href="https://github.com/" target="_self">
-        <img src="http://i63.tinypic.com/ms0rv5.jpg" border="2" 
-        alt="Image and video hosting by TinyPic" width="75"></a>
-           
-    <a href="http://tinypic.com?ref=98v70x" target="_self">
-        <img src="http://i66.tinypic.com/98v70x.jpg" border="0" 
-        alt="Image and video hosting by TinyPic"></a>
-  
-    <a href="https://www.dropbox.com" target="_self">
-        <img src="http://i66.tinypic.com/2qlhhma.jpg" border="0" 
-        alt="Image and video hosting by TinyPic" width="75"></a>
-  
-    <br/><br/>
-  
-    <a href="http://www.iheart.com/live/the-classic-rock-channel-4426/" target="_self">
-        <img src="http://i67.tinypic.com/2nl4y8z.jpg" border="0" 
-        alt="Image and video hosting by TinyPic" width="75"></a>
-  
-    
-    <H3>Click an image to go to that site. </H3>
-    <HR>
-    
-    
-    <input type=text id=GoogleInput /> 
-    <a href="" target="_self"
-        onclick="this.href='http://www.google.com/search?q='
-        +document.getElementById('GoogleInput').value" >
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Locations</title>
+        <link rel="stylesheet" href="styles.css" >
+    </head>
+    <body onload = "start()">
+        <header>
+            <h1>
+                Current Fastrack Bus Locations
+            </h1>
+            <button id="btn">Fetch Info for Bus Locations</button>
+        </header>
+        <div id="time"></div>
+        <div id="next"></div>
+        <div id="interval"></div>
+        <div id="bus-info"></div>
+        <script src="javascript.js"></script>
         
-        <img src="http://i66.tinypic.com/11wfwvk.jpg" border="0" width="75"
-             alt="Image and video hosting by TinyPic"></a>
-    
-    
-    
-    <P> This is where lots of cool stuff will go
-    <br/><br/><br/>
-    
-  
-    
-    <br/>
-    <a href="http://stackoverflow.com/questions/tagged/github" target="_self">
-        <img src="http://i68.tinypic.com/s2h4jb.jpg" width="250"
-        border="2" alt="Image and video hosting by TinyPic"> </a>
-    <HR>
-    </CENTER>
-</BODY>
-</HTML>
+        
+    </body>
+</html>
